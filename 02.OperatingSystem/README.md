@@ -38,11 +38,18 @@
 
   3.  TC Schell
 
-          - C Shell 에 명령 행 완성 과 명령 행 편집 기능을 추가
+  - C Shell 에 명령 행 완성 과 명령 행 편집 기능을 추가
+    </br></br>
 
-      </br></br> 4. Korn Shell - Bourne Shell 가 호환되며 C Shell 의 많은 기능을 포함, Unix 계열에서 많이 사용된다.
-      </br></br> 5. Bourne Again Shell (bash) - 리눅스에서 가장많이 사용되는 쉘로 Bourne 셀을 토대로 C셸과 Korn Shell 의 기능들을 통합시켜 개발되었다.
-      </br></br>
+  4. Korn Shell
+
+  - Bourne Shell 가 호환되며 C Shell 의 많은 기능을 포함, Unix 계열에서 많이 사용된다.
+    </br></br>
+
+  5. Bourne Again Shell (bash)
+
+  - 리눅스에서 가장많이 사용되는 쉘로 Bourne 셀을 토대로 C셸과 Korn Shell 의 기능들을 통합시켜 개발되었다.
+    </br></br>
 
 # 프로세스와 스레드
 
