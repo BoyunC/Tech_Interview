@@ -82,6 +82,13 @@
 
   </br></br>
 
+#### 🍀 Mode Switching 과 Context Switching의 차이점은 무엇인가?
+
+- Mode Switching : 사용자 모드와 커널 모드 간의 스위칭 과정을 뜻하는 것으로 Mode Switching이 발생하면 현재 프로세스의 상태를 저장하고, PC를 다음 작업을 할 주소값으로 세팅해 커널 모드로 전환합니다.
+- Context Switching은 프로세스의 상태를 변화시키는 스위칭 과정을 뜻하는 것으로 Context Switching이 발생하면 진행중인 프로세스의 상태를 기록하고, 불러오는 프로세스의 이전 상태를 복원하고 또한 각 프로세스를 저장할 큐의 메모리 위치를 선점 하는 등의 좀 더 복잡한 작업을 진행합니다.
+- 일반적으로 Mode Switching이 발생되면 상황에 따라 Context Switching이 발생하는 구조입니다. 인터럽트, Exception, 시스템 콜 등이 일어나 Mode Switching이 발생하고 그에 따라서 프로세스의 상태가 변화가 필요하면 Context Switching이 발생합니다.
+  </br></br> 
+
 
 #### 🦔 IPC란 무엇이며 왜 필요한가?
 
